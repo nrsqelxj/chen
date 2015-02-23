@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<network>
+  <pc id="1" x="52" y="219">
+    <matrice id="2">2</matrice>
+    <matrice id="3">4</matrice>
+    <matrice id="4">1</matrice>
+    <matrice id="5">4000</matrice>
+    <matrice id="6">4000</matrice>
+    <matrice id="7">4000</matrice>
+  </pc>
+  <pc id="2" x="230" y="85">
+    <matrice id="3">4000</matrice>
+    <matrice id="4">3</matrice>
+    <matrice id="5">10</matrice>
+    <matrice id="6">4000</matrice>
+    <matrice id="7">4000</matrice>
+  </pc>
+  <pc id="3" x="206" y="277">
+    <matrice id="4">2</matrice>
+    <matrice id="5">4000</matrice>
+    <matrice id="6">5</matrice>
+    <matrice id="7">4000</matrice>
+  </pc>
+  <pc id="4" x="196" y="421">
+    <matrice id="5">2</matrice>
+    <matrice id="6">8</matrice>
+    <matrice id="7">4</matrice>
+  </pc>
+  <pc id="5" x="426" y="80">
+    <matrice id="6">4000</matrice>
+    <matrice id="7">6</matrice>
+  </pc>
+  <pc id="6" x="403" y="266">
+    <matrice id="7">1</matrice>
+  </pc>
+</network>
+

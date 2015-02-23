@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.version1.MainActivity" 
+    xmlns:android1="http://schemas.android.com/apk/res/android">
+
+<FrameLayout
+    android:id="@+id/SAILSMap"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android1:layout_alignParentBottom="true"
+     >
+
+    </FrameLayout>
+
+       <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android1:layout_alignParentBottom="true"
+            android1:layout_alignParentRight="true" >
+
+            <ImageView
+                android1:id="@+id/zoomin"
+                android1:layout_width="57dp"
+                android1:layout_height="57dp"
+                android1:layout_above="@+id/zoomout"
+                android1:layout_alignParentLeft="true"
+                android1:src="@drawable/zoominb" />
+            <ImageView
+                android1:id="@+id/zoomout"
+                android1:layout_width="57dp"
+                android1:layout_height="57dp"
+                android1:layout_alignParentBottom="true"
+                android1:layout_alignParentLeft="true"
+                android1:layout_marginBottom="40dp"
+                android1:baselineAlignBottom="false"
+                android1:src="@drawable/zoomoutb" />
+
+            <ImageView
+                android1:id="@+id/lockcenter"
+                android1:layout_width="60dp"
+                android1:layout_height="60dp"
+                android1:layout_alignBottom="@+id/zoomout"
+                android1:layout_alignParentRight="true"
+                android1:src="@drawable/center1" />
+
+
+            <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+            <Spinner
+                android1:id="@+id/spinner1"
+                android1:layout_width="fill_parent"
+                android1:layout_height="wrap_content"
+                android1:layout_alignParentLeft="true"
+                android1:layout_below="@+id/distanceView"
+                android1:layout_marginTop="17dp" />
+            
+
+            <TextView
+                android1:id="@+id/distanceView"
+                android1:layout_width="fill_parent"
+                android1:layout_height="wrap_content"
+                android1:layout_alignParentLeft="true"
+                android1:layout_alignParentStart="false"
+                android1:background="#80000000"
+                android1:gravity="right"
+                android1:padding="5dp"
+                android1:textAppearance="?android:attr/textAppearanceMedium"
+                android1:textColor="@android:color/holo_blue_light"
+                android1:textStyle="bold" />
+
+            
+
+        </RelativeLayout>
+
+</RelativeLayout>
